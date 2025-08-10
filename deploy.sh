@@ -20,4 +20,4 @@ git commit -m "$commit_message"
 git push
 
 echo "✅ Site atualizado com sucesso!"
-echo "🌐 Acesse: https://hendelsantos.github.io/NOME_DO_REPOSITORIO"
+echo "🌐 Acesse: https://hendelsantos.github.io/Site_Hendel_code"
