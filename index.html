@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hendel Santos - Desenvolvedor Full Stack</title>
+    <meta name="description" content="Desenvolvedor Full Stack especializado em Django, Flask, desenvolvimento de sites e sistemas por demanda">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text"><span class="code-symbol">&lt;/&gt;</span> Hendel<span class="accent">Code</span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#services" class="nav-link">Serviços</a></li>
+                <li><a href="#projects" class="nav-link">Projetos</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Olá, eu sou <span class="accent">Hendel Santos</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Desenvolvedor Full Stack</h2>
+                    <p class="hero-description">
+                        Especializado em <strong>Django</strong>, <strong>Flask</strong>, 
+                        <strong>desenvolvimento de sites</strong> e 
+                        <strong>sistemas por demanda</strong>
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                        <a href="#contact" class="btn btn-outline">Contato</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="code-animation">
+                        <div class="code-line">
+                            <span class="code-comment"># Django Web Development</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="code-keyword">from</span> django.http <span class="code-keyword">import</span> HttpResponse
+                        </div>
+                        <div class="code-line">
+                            <span class="code-keyword">def</span> <span class="code-function">hello_world</span>(request):
+                        </div>
+                        <div class="code-line">
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">return</span> HttpResponse(<span class="code-string">"Hello, World!"</span>)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Sou um desenvolvedor Full Stack apaixonado por tecnologia, especializado em Python e desenvolvimento web. 
+                        Com experiência sólida em frameworks como <strong>Django</strong> e <strong>Flask</strong>, 
+                        desenvolvo soluções completas e escaláveis.
+                    </p>
+                    <p>
+                        Minha expertise inclui o <strong>desenvolvimento de sites</strong> modernos e responsivos, 
+                        além de <strong>sistemas personalizados por demanda</strong> para atender às necessidades específicas de cada cliente.
+                    </p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Projetos Concluídos</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Anos de Experiência</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Satisfação do Cliente</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-card">
+                        <div class="profile-avatar">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h3>Hendel Santos</h3>
+                        <p>Full Stack Developer</p>
+                        <div class="social-links">
+                            <a href="https://github.com/hendelsantos" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Minhas Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-globe"></i>
+                        <h3>Desenvolvimento Web</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Django</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Flask</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">FastAPI</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Frontend Development</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML5 & CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Bootstrap</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-spider"></i>
+                        <h3>Web Scraping & Data</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">BeautifulSoup</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Scrapy</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Selenium</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Banco de Dados</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">PostgreSQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Meus Serviços</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Desenvolvimento de Sites</h3>
+                    <p>Criação de sites modernos, responsivos e otimizados para SEO. Desde landing pages até portais corporativos completos.</p>
+                    <ul class="service-features">
+                        <li>Design responsivo</li>
+                        <li>Otimização para SEO</li>
+                        <li>Performance otimizada</li>
+                        <li>Integração com CMS</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Sistemas por Demanda</h3>
+                    <p>Desenvolvimento de sistemas personalizados para atender às necessidades específicas do seu negócio.</p>
+                    <ul class="service-features">
+                        <li>Análise de requisitos</li>
+                        <li>Arquitetura escalável</li>
+                        <li>Integração com APIs</li>
+                        <li>Suporte e manutenção</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Aplicações Web</h3>
+                    <p>Desenvolvimento de aplicações web completas usando Django e Flask, com foco em performance e segurança.</p>
+                    <ul class="service-features">
+                        <li>Backend robusto</li>
+                        <li>Interface intuitiva</li>
+                        <li>Segurança avançada</li>
+                        <li>Deploy e hospedagem</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-spider"></i>
+                    </div>
+                    <h3>Web Scraping</h3>
+                    <p>Extração e análise de dados da web para automatizar processos e gerar insights valiosos para seu negócio.</p>
+                    <ul class="service-features">
+                        <li>Extração automatizada</li>
+                        <li>Limpeza de dados</li>
+                        <li>Relatórios personalizados</li>
+                        <li>Monitoramento contínuo</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Integração de Sistemas</h3>
+                    <p>Integração entre diferentes sistemas e plataformas para otimizar fluxos de trabalho e processos.</p>
+                    <ul class="service-features">
+                        <li>APIs REST</li>
+                        <li>Migração de dados</li>
+                        <li>Sincronização automática</li>
+                        <li>Documentação completa</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Consultoria Técnica</h3>
+                    <p>Consultoria especializada para escolha das melhores tecnologias e arquiteturas para seus projetos.</p>
+                    <ul class="service-features">
+                        <li>Análise técnica</li>
+                        <li>Escolha de tecnologias</li>
+                        <li>Planejamento de arquitetura</li>
+                        <li>Otimização de processos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Meus Projetos</h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web">Sites</button>
+                <button class="filter-btn" data-filter="system">Sistemas</button>
+                <button class="filter-btn" data-filter="scraping">Web Scraping</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Site Corporativo</h3>
+                        <p>Site institucional moderno e responsivo com painel administrativo, sistema de blog e otimização para SEO.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="system">
+                    <div class="project-image">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sistema de Gestão</h3>
+                        <p>Sistema personalizado para gestão de estoque, vendas e relatórios, desenvolvido sob medida para cliente.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="scraping">
+                    <div class="project-image">
+                        <i class="fas fa-spider"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Monitor de Preços</h3>
+                        <p>Sistema de web scraping que monitora preços em múltiplos e-commerces, enviando alertas quando há quedas de preço.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Scrapy</span>
+                            <span class="tech-tag">Selenium</span>
+                            <span class="tech-tag">Celery</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Personalizado</h3>
+                        <p>Loja virtual completa com carrinho de compras, integração de pagamentos e painel administrativo avançado.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Stripe API</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="system">
+                    <div class="project-image">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sistema de RH</h3>
+                        <p>Plataforma para gestão de recursos humanos com controle de funcionários, folha de pagamento e relatórios.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">SQLAlchemy</span>
+                            <span class="tech-tag">Chart.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="scraping">
+                    <div class="project-image">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Agregador de Notícias</h3>
+                        <p>Sistema que coleta e organiza notícias de múltiplas fontes, categorizando e removendo duplicatas automaticamente.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">BeautifulSoup</span>
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">Django</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Código</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Solicitar Orçamento</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Conte-nos sobre seu projeto</h3>
+                    <p>Para fornecer o melhor orçamento e atendimento personalizado, preciso conhecer melhor seu projeto. Preencha o formulário com o máximo de detalhes possível.</p>
+                    
+                    <div class="info-tips">
+                        <h4><i class="fas fa-lightbulb"></i> Informações importantes:</h4>
+                        <ul>
+                            <li>Descreva detalhadamente o que você precisa</li>
+                            <li>Mencione prazo desejado se houver</li>
+                            <li>Inclua seu WhatsApp para contato mais rápido</li>
+                            <li>Informe seu orçamento aproximado</li>
+                            <li>Escolha o melhor horário para retorno</li>
+                        </ul>
+                    </div>
+
+                    <div class="response-info">
+                        <h4><i class="fas fa-clock"></i> Tempo de resposta:</h4>
+                        <p>Respondo todas as mensagens em até <strong>24 horas</strong>. Para urgências, inclua seu WhatsApp no formulário.</p>
+                    </div>
+                </div>
+                <form class="contact-form" action="https://formspree.io/f/meozvkql" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Seu Nome Completo *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Seu Email *" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="tel" name="whatsapp" placeholder="WhatsApp (opcional)">
+                        </div>
+                        <div class="form-group">
+                            <select name="subject" required>
+                                <option value="">Selecione o tipo de projeto *</option>
+                                <option value="orcamento-site">Orçamento - Site/Landing Page</option>
+                                <option value="orcamento-sistema">Orçamento - Sistema Personalizado</option>
+                                <option value="orcamento-ecommerce">Orçamento - E-commerce</option>
+                                <option value="orcamento-webscraping">Orçamento - Web Scraping</option>
+                                <option value="orcamento-integracao">Orçamento - Integração de Sistemas</option>
+                                <option value="consultoria">Consultoria Técnica</option>
+                                <option value="manutencao">Manutenção/Suporte</option>
+                                <option value="outros">Outros</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <select name="contact_preference">
+                                <option value="">Como prefere o retorno?</option>
+                                <option value="email">Email</option>
+                                <option value="whatsapp">WhatsApp</option>
+                                <option value="ambos">Email e WhatsApp</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select name="return_time">
+                                <option value="">Melhor horário para retorno</option>
+                                <option value="manha">Manhã (8h às 12h)</option>
+                                <option value="tarde">Tarde (13h às 18h)</option>
+                                <option value="noite">Noite (19h às 22h)</option>
+                                <option value="qualquer">Qualquer horário</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" name="budget" placeholder="Orçamento aproximado (opcional)">
+                    </div>
+
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Descreva seu projeto com detalhes: funcionalidades desejadas, prazo, referências, etc. *" rows="6" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Enviar Solicitação
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Hendel Code. Todos os direitos reservados.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/hendelsantos" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
